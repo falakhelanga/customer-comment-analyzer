@@ -10,7 +10,7 @@
 </li>
 <li>To start this project run:
 <ul>
-<li>yarn start</li>
+<li>yarn start or npm start</li>
 </ul>
 </li>
 
