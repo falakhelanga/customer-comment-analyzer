@@ -48,7 +48,6 @@ export class CommentAnalyzer {
       );
       const questionsMatches = line.includes("?");
       const shortMatches = line.trim() !== "" && line.length <= 15;
-
       totals.SHAKER_MENTION = this.finder(
         !!shakerMatches,
         "SHAKER_MENTION",
